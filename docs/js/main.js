@@ -409,6 +409,6 @@ document.body.insertBefore(skipLink, document.body.firstChild);
 // ========================================
 // Console Welcome Message
 // ========================================
-console.log('%c🎓 AI Grading System', 'font-size: 20px; font-weight: bold; color: #1e40af;');
-console.log('%cTransforming education with intelligent automation', 'font-size: 14px; color: #64748b;');
+console.log('%c🎓 GradeIntellio', 'font-size: 20px; font-weight: bold; color: #1e40af;');
+console.log('%cSmart Grading Solutions - Transforming education with intelligent automation', 'font-size: 14px; color: #64748b;');
 console.log('%cInterested in our technology? Contact us at contact@aigrading.com', 'font-size: 12px; color: #10b981;');

@@ -1,6 +1,6 @@
-# AI Grading System - Website
+# GradeIntellio - Smart Grading Solutions
 
-This is the GitHub Pages website for the AI Grading System project.
+This is the GitHub Pages website for the GradeIntellio project.
 
 ## 🌐 Live Website
 
