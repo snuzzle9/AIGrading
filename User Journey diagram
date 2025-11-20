@@ -1,0 +1,267 @@
+# User Journey & Interaction Flow
+
+## 🎯 VISITOR JOURNEY MAP
+
+```
+                    AWARENESS STAGE
+                          │
+                          ▼
+        ┌─────────────────────────────────────┐
+        │   Landing on Hero Section           │
+        │   "AI-Powered Grading System"       │
+        │   [Captures attention in 3 seconds] │
+        └─────────────────────────────────────┘
+                          │
+                          ▼
+               ┌──────────┴──────────┐
+               │                     │
+               ▼                     ▼
+    ┌──────────────────┐   ┌──────────────────┐
+    │ Watch Demo Video │   │ Scroll to Learn  │
+    │    (30 sec)      │   │      More        │
+    └──────────────────┘   └──────────────────┘
+               │                     │
+               └──────────┬──────────┘
+                          │
+                    INTEREST STAGE
+                          │
+                          ▼
+        ┌─────────────────────────────────────┐
+        │   See Problem Statement              │
+        │   "Teachers spend hours grading..."  │
+        │   [Resonates with pain points]       │
+        └─────────────────────────────────────┘
+                          │
+                          ▼
+        ┌─────────────────────────────────────┐
+        │   Explore Features                   │
+        │   Auto Extract | AI Grade | Analytics│
+        │   [Understands capabilities]         │
+        └─────────────────────────────────────┘
+                          │
+                    CONSIDERATION STAGE
+                          │
+                          ▼
+        ┌─────────────────────────────────────┐
+        │   How It Works (4 Steps)            │
+        │   Visual process flow               │
+        │   [Sees simplicity]                 │
+        └─────────────────────────────────────┘
+                          │
+                          ▼
+        ┌─────────────────────────────────────┐
+        │   Benefits Section                   │
+        │   Teachers | Schools | Students      │
+        │   [Identifies personal value]        │
+        └─────────────────────────────────────┘
+                          │
+                          ▼
+        ┌─────────────────────────────────────┐
+        │   Technology Stack                   │
+        │   Enterprise-grade, secure          │
+        │   [Builds trust]                    │
+        └─────────────────────────────────────┘
+                          │
+                    DECISION STAGE
+                          │
+                          ▼
+        ┌─────────────────────────────────────┐
+        │   Stats & Social Proof               │
+        │   80% time saved | 95% accuracy     │
+        │   [Convinced by data]               │
+        └─────────────────────────────────────┘
+                          │
+                          ▼
+        ┌─────────────────────────────────────┐
+        │   Call to Action                     │
+        │   [Request Demo] or [Contact Sales]  │
+        │   ✓ Submits form                    │
+        └─────────────────────────────────────┘
+                          │
+                    ACTION STAGE
+                          │
+                          ▼
+        ┌─────────────────────────────────────┐
+        │   Thank You Message                  │
+        │   "We'll contact you within 24hrs"   │
+        │   [Feels confident in decision]      │
+        └─────────────────────────────────────┘
+```
+
+---
+
+## 🎬 INTERACTIVE ELEMENTS
+
+### Navigation Behavior
+```
+┌─────────────────────────────────────────────────┐
+│  Scroll Position       Navigation State         │
+├─────────────────────────────────────────────────┤
+│  Top (0-100px)    →   Transparent navbar        │
+│  Scrolling down   →   Solid navbar with shadow  │
+│  Scrolling up     →   Navbar visible            │
+│  Scrolling down   →   Navbar hidden (optional)  │
+└─────────────────────────────────────────────────┘
+```
+
+### Hover States & Micro-interactions
+- **Buttons:** Scale up 1.05x, shadow deepens
+- **Feature cards:** Lift effect (translateY -5px)
+- **Links:** Underline animation (left to right)
+- **Icons:** Subtle rotate or bounce animation
+
+### Scroll Animations (using AOS or Intersection Observer)
+```
+Section Entry          Animation Effect
+─────────────          ────────────────
+Hero                →  Fade in from bottom
+Features            →  Fade in + scale (staggered)
+How It Works        →  Slide in from left (steps)
+Benefits            →  Flip in (card rotation)
+Technology          →  Fade in from top
+Stats               →  Count-up animation
+CTA                 →  Pulse effect
+```
+
+---
+
+## 📱 MOBILE NAVIGATION FLOW
+
+```
+┌─────────────────────┐
+│   [☰] Logo          │  ← Hamburger menu
+└─────────────────────┘
+         │ (tap)
+         ▼
+┌─────────────────────┐
+│   [×]               │
+│                     │
+│   🏠 Home           │
+│   ⚡ Features       │
+│   🔄 How It Works   │
+│   ✨ Benefits       │
+│   🔧 Technology     │
+│   📞 Contact        │
+│                     │
+│   [Request Demo]    │
+│                     │
+└─────────────────────┘
+   Full-screen overlay
+   Smooth slide-in
+```
+
+---
+
+## 🎨 PROGRESSIVE DISCLOSURE
+
+### Information Architecture
+```
+Level 1: Headlines          → Grab attention
+Level 2: Subheadings        → Explain value
+Level 3: Body copy          → Provide details
+Level 4: CTAs              → Drive action
+
+Example:
+────────
+"AI-Powered Grading System"           [Level 1]
+   ↓
+"Transform Assessment with             [Level 2]
+ Intelligent Automation"
+   ↓
+"Save 80% of grading time while        [Level 3]
+ providing better feedback..."
+   ↓
+[Request a Demo]                       [Level 4]
+```
+
+---
+
+## 🔄 CONVERSION FUNNELS
+
+### Primary Conversion Path
+```
+Hero CTA → Demo Request Form → Thank You Page
+  (60%)      (40% complete)      (90% convert)
+```
+
+### Secondary Paths
+```
+1. Features → Benefits → CTA → Contact Form
+2. How It Works → CTA → Email Contact
+3. Technology → Trust Build → CTA → Demo Request
+```
+
+### Exit Intent Strategy
+```
+User moves cursor to close tab
+         ↓
+Trigger modal: "Wait! See it in action"
+         ↓
+   [Watch 1-min Demo]
+   [Download Case Study]
+```
+
+---
+
+## 🎯 ENGAGEMENT METRICS TO TRACK
+
+1. **Time on page:** Target 2-3 minutes
+2. **Scroll depth:** % reaching CTA section
+3. **Click-through rate:** Hero CTA vs. bottom CTA
+4. **Form completion:** Demo request submissions
+5. **Bounce rate:** Target <40%
+
+---
+
+## 📊 A/B TEST IDEAS
+
+### Hero Section
+- **Test A:** Video background
+- **Test B:** Static illustration
+- **Metric:** Scroll depth and CTA clicks
+
+### CTA Copy
+- **Test A:** "Request a Demo"
+- **Test B:** "See It In Action"
+- **Test C:** "Start Free Trial"
+- **Metric:** Click-through rate
+
+### Social Proof
+- **Test A:** Statistics only
+- **Test B:** Statistics + testimonials
+- **Metric:** Conversion rate
+
+---
+
+## 🚀 PERFORMANCE TARGETS
+
+```
+Metric                Goal        Why
+──────────────────────────────────────────────
+Page Load Time        <2s         First impression
+Largest Contentful    <2.5s       Core Web Vital
+  Paint (LCP)
+First Input Delay     <100ms      Interactivity
+  (FID)
+Cumulative Layout     <0.1        Visual stability
+  Shift (CLS)
+Lighthouse Score      >90         Overall quality
+Mobile Friendly       100%        Google ranking
+Accessibility         WCAG AA     Inclusive design
+```
+
+---
+
+## 🎨 ANIMATION TIMING
+
+```
+Element               Duration    Easing
+─────────────────────────────────────────────
+Button hover          200ms       ease-out
+Card hover            300ms       ease-in-out
+Scroll reveal         600ms       ease-out
+Menu slide            400ms       ease-in-out
+Modal open            300ms       ease-out
+Count-up numbers      2000ms      linear
+```
+
