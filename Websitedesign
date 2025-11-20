@@ -1,0 +1,269 @@
+# GitHub Pages Website - Visual Design Plan
+## AI Grading System for Schools
+
+---
+
+## 🎨 WEBSITE STRUCTURE DIAGRAM
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                      NAVIGATION BAR                              │
+│  Logo | Features | How It Works | Benefits | Technology | Demo  │
+└─────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────┐
+│                      1. HERO SECTION                             │
+│  ┌───────────────────────────────────────────────────────────┐  │
+│  │                                                           │  │
+│  │    AI-Powered Grading System for Schools                 │  │
+│  │    Transform Assessment with Intelligent Automation      │  │
+│  │                                                           │  │
+│  │    [Get Started Button]  [Watch Demo Button]             │  │
+│  │                                                           │  │
+│  │    [Hero Image: Teacher + AI + Students visual]          │  │
+│  │                                                           │  │
+│  └───────────────────────────────────────────────────────────┘  │
+└─────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────┐
+│                  2. PROBLEM STATEMENT                            │
+│  ┌───────────────────────────────────────────────────────────┐  │
+│  │  "Teachers spend hours grading. Students wait days for   │  │
+│  │   feedback. Assessment becomes a bottleneck."            │  │
+│  │                                                           │  │
+│  │   ❌ Manual grading takes hours                          │  │
+│  │   ❌ Delayed feedback slows learning                     │  │
+│  │   ❌ Inconsistent evaluation criteria                    │  │
+│  │   ❌ Limited analytics and insights                      │  │
+│  └───────────────────────────────────────────────────────────┘  │
+└─────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────┐
+│                    3. FEATURES OVERVIEW                          │
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐            │
+│  │  📄 Auto    │  │  🤖 AI      │  │  📊 Smart   │            │
+│  │  Question   │  │  Grading    │  │  Analytics  │            │
+│  │  Extraction │  │  Engine     │  │  Dashboard  │            │
+│  │             │  │             │  │             │            │
+│  │ Extract Q's │  │ Grade with  │  │ Insights on │            │
+│  │ from papers │  │ precision   │  │ performance │            │
+│  └─────────────┘  └─────────────┘  └─────────────┘            │
+│                                                                  │
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐            │
+│  │  ✏️ Answer  │  │  👨‍🏫 Teacher│  │  ⚡ Real-   │            │
+│  │  Key Gen    │  │  Override   │  │  time       │            │
+│  │             │  │             │  │  Results    │            │
+│  │ AI-powered  │  │ Human-in-   │  │ Instant     │            │
+│  │ answers     │  │ the-loop    │  │ feedback    │            │
+│  └─────────────┘  └─────────────┘  └─────────────┘            │
+└─────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────┐
+│                    4. HOW IT WORKS                               │
+│  ┌───────────────────────────────────────────────────────────┐  │
+│  │                                                           │  │
+│  │   Step 1          Step 2         Step 3         Step 4   │  │
+│  │  ┌─────┐        ┌─────┐        ┌─────┐        ┌─────┐   │  │
+│  │  │  📤 │   →    │ 🎯  │   →    │ 📝  │   →    │ 📊  │   │  │
+│  │  └─────┘        └─────┘        └─────┘        └─────┘   │  │
+│  │   Upload         Extract        Upload         Get       │  │
+│  │   Question       Questions      Student        Graded    │  │
+│  │   Paper          & Answers      Sheets         Results   │  │
+│  │                                                           │  │
+│  │  [Interactive visual flowchart with animations]          │  │
+│  │                                                           │  │
+│  └───────────────────────────────────────────────────────────┘  │
+└─────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────┐
+│                      5. BENEFITS                                 │
+│  ┌──────────────────────┐  ┌──────────────────────┐            │
+│  │  FOR TEACHERS         │  │  FOR SCHOOLS         │            │
+│  │  ─────────────        │  │  ─────────────       │            │
+│  │  ⏱️  Save 80% time   │  │  💰 Reduce costs    │            │
+│  │  🎯 Consistent grading│  │  📈 Better insights │            │
+│  │  📝 Detailed feedback │  │  ⚡ Faster results  │            │
+│  │  🔄 Less repetitive   │  │  🎓 Improve quality │            │
+│  └──────────────────────┘  └──────────────────────┘            │
+│                                                                  │
+│  ┌──────────────────────┐  ┌──────────────────────┐            │
+│  │  FOR STUDENTS         │  │  FOR PARENTS         │            │
+│  │  ─────────────        │  │  ─────────────       │            │
+│  │  ⚡ Instant feedback  │  │  📊 Track progress  │            │
+│  │  📚 Learn faster      │  │  👁️  Transparency   │            │
+│  │  🎯 Clear explanations│  │  📱 Easy access     │            │
+│  │  📈 Track improvement │  │  🤝 Better support  │            │
+│  └──────────────────────┘  └──────────────────────┘            │
+└─────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────┐
+│                    6. TECHNOLOGY STACK                           │
+│  ┌───────────────────────────────────────────────────────────┐  │
+│  │         Built with Enterprise-Grade Technology            │  │
+│  │                                                           │  │
+│  │  │  │                                                           │  │
+│  │   ✓ Secure & Scalable                                    │  │
+│  │   ✓ Google Gemini 2.5 AI                                 │  │
+│  │   ✓ Cloud-based Infrastructure                           │  │
+│  │   ✓ GDPR Compliant                                       │  │
+│  │                                                           │  │
+│  └───────────────────────────────────────────────────────────┘  │
+└─────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────┐
+│                   7. STATS & IMPACT                              │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐        │
+│  │   80%    │  │   95%    │  │  10min   │  │ Grades   │        │
+│  │          │  │          │  │          │  │  4-10    │        │
+│  │   Time   │  │ Accuracy │  │  Average │  │          │        │
+│  │  Saved   │  │   Rate   │  │  Grading │  │ Supported│        │
+│  └──────────┘  └──────────┘  └──────────┘  └──────────┘        │
+└─────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────┐
+│                   8. CALL TO ACTION                              │
+│  ┌───────────────────────────────────────────────────────────┐  │
+│  │                                                           │  │
+│  │        Ready to Transform Your Assessment Process?       │  │
+│  │                                                           │  │
+│  │           [Request a Demo]    [Contact Sales]            │  │
+│  │                                                           │  │
+│  │              📧 contact@aigrading.com                    │  │
+│  │                                                           │  │
+│  └───────────────────────────────────────────────────────────┘  │
+└─────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────┐
+│                         FOOTER                                   │
+│  About | Privacy Policy | Terms | Documentation | Support       │
+│  © 2025 AI Grading System. All rights reserved.                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🎨 DESIGN SPECIFICATIONS
+
+### Color Scheme (Modern & Professional)
+- **Primary:** Deep Blue (#1e40af) - Trust, intelligence
+- **Secondary:** Emerald Green (#10b981) - Success, growth
+- **Accent:** Purple (#8b5cf6) - Innovation, creativity
+- **Neutral:** Slate Gray (#64748b) - Text, backgrounds
+- **Background:** White (#ffffff) with light gray (#f8fafc) alternating sections
+
+### Typography
+- **Headings:** Inter or Poppins (Bold, Modern Sans-serif)
+- **Body:** Inter or System UI (Clean, readable)
+- **Code/Tech:** JetBrains Mono (for tech stack section)
+
+### Visual Elements
+- **Icons:** Lucide or Heroicons (consistent, modern)
+- **Illustrations:** Undraw.co style or custom SVG illustrations
+- **Images:** High-quality photos of diverse students and teachers
+- **Animations:** Subtle fade-ins, smooth scrolling, hover effects
+
+### Layout & Spacing
+- **Container:** Max-width 1200px, centered
+- **Sections:** 80-120px vertical padding
+- **Cards:** Shadow-sm, rounded-lg borders
+- **Buttons:** Large touch targets (48px min height), rounded
+
+---
+
+## 📱 RESPONSIVE DESIGN
+
+### Desktop (1200px+)
+- Full navigation bar
+- Multi-column layouts (features grid: 3x2)
+- Large hero images
+- Side-by-side content
+
+### Tablet (768px - 1199px)
+- Condensed navigation
+- 2-column grids
+- Stacked sections where appropriate
+
+### Mobile (<768px)
+- Hamburger menu
+- Single column layout
+- Simplified features (vertical stack)
+- Larger touch targets
+
+---
+
+## ⚡ TECHNICAL IMPLEMENTATION
+
+### Stack for GitHub Pages
+- **Framework:** Plain HTML/CSS/JS or React (with build to static)
+- **Styling:** Tailwind CSS via CDN or compiled
+- **Animations:** AOS (Animate on Scroll) or Framer Motion
+- **Icons:** Lucide Icons CDN
+- **Hosting:** GitHub Pages (static site)
+
+### File Structure
+```
+docs/
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── main.js
+├── images/
+│   ├── hero.svg
+│   ├── features/
+│   └── logos/
+└── README.md
+```
+
+### Key Features to Implement
+- ✅ Smooth scroll navigation
+- ✅ Intersection Observer for animations
+- ✅ Mobile-responsive hamburger menu
+- ✅ Form validation for demo requests
+- ✅ Fast loading (<2s LCP)
+- ✅ SEO optimized meta tags
+- ✅ Accessible (WCAG AA)
+
+---
+
+## 🎯 CONTENT STRATEGY
+
+### Value Propositions
+1. **Save Time:** "From hours to minutes"
+2. **Improve Quality:** "Consistent, detailed feedback"
+3. **Gain Insights:** "Data-driven decision making"
+4. **Empower Teachers:** "Focus on teaching, not grading"
+
+### Call-to-Actions
+- Primary: "Request a Demo"
+- Secondary: "See How It Works"
+- Tertiary: "Contact Sales"
+
+### Social Proof Elements
+- Testimonials (when available)
+- School logos (when available)
+- Usage statistics
+- Trust badges (security, compliance)
+
+---
+
+## 📊 METRICS TO HIGHLIGHT
+
+- **80%** time reduction in grading
+- **95%** accuracy rate (AI grading)
+- **10 minutes** average grading time per exam
+- **Grades 4-10** supported
+- **Multiple subjects** (Math, Science, English, etc.)
+- **Hierarchical questions** supported
+
+---
+
+## 🚀 NEXT STEPS
+
+1. **Review & Approve** this design plan
+2. **Implement** static website with chosen tech stack
+3. **Add content** and real examples/screenshots
+4. **Test** responsiveness and accessibility
+5. **Deploy** to GitHub Pages
+6. **Optimize** SEO and performance
+
