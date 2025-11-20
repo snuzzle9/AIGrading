@@ -90,7 +90,7 @@ Once deployed, visitors will see:
 4. **How It Works** - 4-step process
 5. **Benefits** - Value for teachers, schools, students, parents
 6. **Technology** - Enterprise-grade stack
-7. **Stats** - Key metrics (80% time saved, 95% accuracy)
+7. **Stats** - Key metrics (80% time saved, 90% accuracy)
 8. **Contact Form** - Lead capture
 9. **Professional Footer** - Complete navigation
 

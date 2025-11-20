@@ -1,6 +1,6 @@
-# AI Grading System - Website
+# GradeIntellio - Smart Grading Solutions
 
-This is the GitHub Pages website for the AI Grading System project.
+This is the GitHub Pages website for the GradeIntellio project.
 
 ## 🌐 Live Website
 
@@ -73,7 +73,7 @@ To view the website locally:
 
 ## 📧 Contact
 
-For questions or support, contact: contact@aigrading.com
+For questions or support, contact: gradeintellio@gmail.com
 
 ---
 

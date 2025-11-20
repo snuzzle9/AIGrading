@@ -151,26 +151,32 @@ if (demoForm) {
             return;
         }
 
-        // Show loading state
-        const submitButton = demoForm.querySelector('button[type="submit"]');
-        const originalText = submitButton.textContent;
-        submitButton.textContent = 'Sending...';
-        submitButton.disabled = true;
+        // Construct email body
+        const emailSubject = encodeURIComponent('Demo Request from ' + formData.name);
+        const emailBody = encodeURIComponent(
+            'Demo Request Details:\n\n' +
+            'Name: ' + formData.name + '\n' +
+            'Email: ' + formData.email + '\n' +
+            'School: ' + formData.school + '\n' +
+            'Phone: ' + (formData.phone || 'Not provided') + '\n\n' +
+            'Message:\n' + (formData.message || 'No message provided') + '\n\n' +
+            '---\n' +
+            'This request was submitted through the GradeIntellio website.'
+        );
 
-        // Simulate form submission (replace with actual API call)
+        // Create mailto link
+        const mailtoLink = 'mailto:gradeintellio@gmail.com?subject=' + emailSubject + '&body=' + emailBody;
+
+        // Open email client
+        window.location.href = mailtoLink;
+
+        // Show success message
+        showNotification('Opening your email client to send the request...', 'success');
+
+        // Reset form after a short delay
         setTimeout(() => {
-            submitButton.textContent = originalText;
-            submitButton.disabled = false;
-
-            // Show success message
-            showNotification('Thank you! We\'ll contact you within 24 hours.', 'success');
-
-            // Reset form
             demoForm.reset();
-
-            // Log form data (in production, send to backend)
-            console.log('Form submitted:', formData);
-        }, 1500);
+        }, 1000);
     });
 }
 
@@ -409,6 +415,6 @@ document.body.insertBefore(skipLink, document.body.firstChild);
 // ========================================
 // Console Welcome Message
 // ========================================
-console.log('%c🎓 AI Grading System', 'font-size: 20px; font-weight: bold; color: #1e40af;');
-console.log('%cTransforming education with intelligent automation', 'font-size: 14px; color: #64748b;');
-console.log('%cInterested in our technology? Contact us at contact@aigrading.com', 'font-size: 12px; color: #10b981;');
+console.log('%c🎓 GradeIntellio', 'font-size: 20px; font-weight: bold; color: #1e40af;');
+console.log('%cSmart Grading Solutions - Transforming education with intelligent automation', 'font-size: 14px; color: #64748b;');
+console.log('%cInterested in our technology? Contact us at gradeintellio@gmail.com', 'font-size: 12px; color: #10b981;');
