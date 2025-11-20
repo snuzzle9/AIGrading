@@ -73,7 +73,7 @@ To view the website locally:
 
 ## 📧 Contact
 
-For questions or support, contact: contact@aigrading.com
+For questions or support, contact: gradeintellio@gmail.com
 
 ---
 
