@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI-Powered Grading System for Schools - Transform assessment with intelligent automation. Save 80% grading time with 95% accuracy.">
+    <meta name="keywords" content="AI grading, automated grading, education technology, school assessment, teacher tools">
+    <title>AI Grading System - Transform Assessment with Intelligent Automation</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="nav-brand">
+                <span class="logo">🎓</span>
+                <span class="brand-name">AI Grading System</span>
+            </div>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+                <li><a href="#benefits" class="nav-link">Benefits</a></li>
+                <li><a href="#technology" class="nav-link">Technology</a></li>
+                <li><a href="#cta" class="nav-link cta-button">Request Demo</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container hero-container">
+            <div class="hero-content" data-aos="fade-up">
+                <h1 class="hero-title">AI-Powered Grading System for Schools</h1>
+                <p class="hero-subtitle">Transform Assessment with Intelligent Automation</p>
+                <p class="hero-description">Save 80% of grading time while providing better, more consistent feedback to students. Focus on what matters - teaching.</p>
+                <div class="hero-buttons">
+                    <a href="#cta" class="btn btn-primary">Get Started</a>
+                    <a href="#how-it-works" class="btn btn-secondary">Watch Demo</a>
+                </div>
+            </div>
+            <div class="hero-visual" data-aos="fade-left" data-aos-delay="200">
+                <div class="hero-illustration">
+                    <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Teacher -->
+                        <circle cx="100" cy="100" r="40" fill="#1e40af" opacity="0.2"/>
+                        <circle cx="100" cy="100" r="30" fill="#1e40af"/>
+                        <text x="100" y="110" text-anchor="middle" font-size="30" fill="white">👨‍🏫</text>
+
+                        <!-- AI Brain -->
+                        <circle cx="200" cy="100" r="50" fill="#8b5cf6" opacity="0.3"/>
+                        <circle cx="200" cy="100" r="40" fill="#8b5cf6"/>
+                        <text x="200" y="115" text-anchor="middle" font-size="40" fill="white">🤖</text>
+
+                        <!-- Students -->
+                        <circle cx="300" cy="100" r="40" fill="#10b981" opacity="0.2"/>
+                        <circle cx="300" cy="100" r="30" fill="#10b981"/>
+                        <text x="300" y="110" text-anchor="middle" font-size="30" fill="white">👨‍🎓</text>
+
+                        <!-- Connection lines -->
+                        <line x1="130" y1="100" x2="160" y2="100" stroke="#64748b" stroke-width="2" stroke-dasharray="5,5"/>
+                        <line x1="240" y1="100" x2="270" y2="100" stroke="#64748b" stroke-width="2" stroke-dasharray="5,5"/>
+
+                        <!-- Floating elements -->
+                        <g class="float-animation">
+                            <rect x="50" y="200" width="60" height="40" rx="5" fill="#1e40af" opacity="0.1"/>
+                            <text x="80" y="225" text-anchor="middle" font-size="24">📄</text>
+                        </g>
+                        <g class="float-animation" style="animation-delay: 0.5s;">
+                            <rect x="170" y="200" width="60" height="40" rx="5" fill="#8b5cf6" opacity="0.1"/>
+                            <text x="200" y="225" text-anchor="middle" font-size="24">✨</text>
+                        </g>
+                        <g class="float-animation" style="animation-delay: 1s;">
+                            <rect x="290" y="200" width="60" height="40" rx="5" fill="#10b981" opacity="0.1"/>
+                            <text x="320" y="225" text-anchor="middle" font-size="24">📊</text>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Statement -->
+    <section class="problem-section">
+        <div class="container">
+            <div class="problem-content" data-aos="fade-up">
+                <blockquote class="problem-quote">
+                    "Teachers spend hours grading. Students wait days for feedback. Assessment becomes a bottleneck."
+                </blockquote>
+                <div class="problem-list">
+                    <div class="problem-item" data-aos="fade-up" data-aos-delay="100">
+                        <span class="problem-icon">❌</span>
+                        <span>Manual grading takes hours</span>
+                    </div>
+                    <div class="problem-item" data-aos="fade-up" data-aos-delay="200">
+                        <span class="problem-icon">❌</span>
+                        <span>Delayed feedback slows learning</span>
+                    </div>
+                    <div class="problem-item" data-aos="fade-up" data-aos-delay="300">
+                        <span class="problem-icon">❌</span>
+                        <span>Inconsistent evaluation criteria</span>
+                    </div>
+                    <div class="problem-item" data-aos="fade-up" data-aos-delay="400">
+                        <span class="problem-icon">❌</span>
+                        <span>Limited analytics and insights</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section" id="features">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Powerful Features</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Everything you need to transform your assessment process</p>
+
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">📄</div>
+                    <h3 class="feature-title">Auto Question Extraction</h3>
+                    <p class="feature-description">Automatically extract questions from exam papers with advanced OCR and AI technology.</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">🤖</div>
+                    <h3 class="feature-title">AI Grading Engine</h3>
+                    <p class="feature-description">Grade with precision using Google Gemini 2.5 AI, achieving 95% accuracy rate.</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">📊</div>
+                    <h3 class="feature-title">Smart Analytics Dashboard</h3>
+                    <p class="feature-description">Get deep insights on student performance, trends, and areas for improvement.</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">✏️</div>
+                    <h3 class="feature-title">Answer Key Generation</h3>
+                    <p class="feature-description">AI-powered answer key generation with customizable grading rubrics.</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">👨‍🏫</div>
+                    <h3 class="feature-title">Teacher Override</h3>
+                    <p class="feature-description">Human-in-the-loop design allows teachers to review and adjust AI grades.</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Real-time Results</h3>
+                    <p class="feature-description">Instant feedback for students, reducing wait time from days to minutes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works-section" id="how-it-works">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">How It Works</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Simple 4-step process to transform your grading</p>
+
+            <div class="steps-container">
+                <div class="step" data-aos="fade-right" data-aos-delay="100">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">📤</div>
+                    <h3 class="step-title">Upload Question Paper</h3>
+                    <p class="step-description">Upload your exam paper in any format - PDF, image, or scanned document.</p>
+                </div>
+
+                <div class="step-arrow" data-aos="fade-in" data-aos-delay="200">→</div>
+
+                <div class="step" data-aos="fade-right" data-aos-delay="300">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">🎯</div>
+                    <h3 class="step-title">Extract Questions</h3>
+                    <p class="step-description">AI automatically extracts questions and generates answer keys.</p>
+                </div>
+
+                <div class="step-arrow" data-aos="fade-in" data-aos-delay="400">→</div>
+
+                <div class="step" data-aos="fade-right" data-aos-delay="500">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">📝</div>
+                    <h3 class="step-title">Upload Student Sheets</h3>
+                    <p class="step-description">Batch upload student answer sheets for automated grading.</p>
+                </div>
+
+                <div class="step-arrow" data-aos="fade-in" data-aos-delay="600">→</div>
+
+                <div class="step" data-aos="fade-right" data-aos-delay="700">
+                    <div class="step-number">4</div>
+                    <div class="step-icon">📊</div>
+                    <h3 class="step-title">Get Graded Results</h3>
+                    <p class="step-description">Receive detailed results with insights and analytics instantly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section" id="benefits">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Benefits for Everyone</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Transforming education for all stakeholders</p>
+
+            <div class="benefits-grid">
+                <div class="benefit-card" data-aos="flip-up" data-aos-delay="100">
+                    <h3 class="benefit-title">For Teachers</h3>
+                    <div class="benefit-divider"></div>
+                    <ul class="benefit-list">
+                        <li><span class="benefit-icon">⏱️</span> Save 80% grading time</li>
+                        <li><span class="benefit-icon">🎯</span> Consistent grading standards</li>
+                        <li><span class="benefit-icon">📝</span> Detailed feedback generation</li>
+                        <li><span class="benefit-icon">🔄</span> Less repetitive work</li>
+                    </ul>
+                </div>
+
+                <div class="benefit-card" data-aos="flip-up" data-aos-delay="200">
+                    <h3 class="benefit-title">For Schools</h3>
+                    <div class="benefit-divider"></div>
+                    <ul class="benefit-list">
+                        <li><span class="benefit-icon">💰</span> Reduce operational costs</li>
+                        <li><span class="benefit-icon">📈</span> Better performance insights</li>
+                        <li><span class="benefit-icon">⚡</span> Faster result processing</li>
+                        <li><span class="benefit-icon">🎓</span> Improve teaching quality</li>
+                    </ul>
+                </div>
+
+                <div class="benefit-card" data-aos="flip-up" data-aos-delay="300">
+                    <h3 class="benefit-title">For Students</h3>
+                    <div class="benefit-divider"></div>
+                    <ul class="benefit-list">
+                        <li><span class="benefit-icon">⚡</span> Instant feedback</li>
+                        <li><span class="benefit-icon">📚</span> Learn faster</li>
+                        <li><span class="benefit-icon">🎯</span> Clear explanations</li>
+                        <li><span class="benefit-icon">📈</span> Track improvement</li>
+                    </ul>
+                </div>
+
+                <div class="benefit-card" data-aos="flip-up" data-aos-delay="400">
+                    <h3 class="benefit-title">For Parents</h3>
+                    <div class="benefit-divider"></div>
+                    <ul class="benefit-list">
+                        <li><span class="benefit-icon">📊</span> Track progress easily</li>
+                        <li><span class="benefit-icon">👁️</span> Complete transparency</li>
+                        <li><span class="benefit-icon">📱</span> Easy access to results</li>
+                        <li><span class="benefit-icon">🤝</span> Better support tools</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section class="technology-section" id="technology">
+        <div class="container">
+            <div class="technology-content" data-aos="fade-up">
+                <h2 class="section-title">Built with Enterprise-Grade Technology</h2>
+                <p class="section-subtitle">Secure, scalable, and reliable infrastructure you can trust</p>
+
+                <div class="technology-features">
+                    <div class="tech-feature" data-aos="fade-up" data-aos-delay="100">
+                        <span class="tech-icon">✓</span>
+                        <span class="tech-text">Secure & Scalable Cloud Infrastructure</span>
+                    </div>
+                    <div class="tech-feature" data-aos="fade-up" data-aos-delay="200">
+                        <span class="tech-icon">✓</span>
+                        <span class="tech-text">Google Gemini 2.5 AI Technology</span>
+                    </div>
+                    <div class="tech-feature" data-aos="fade-up" data-aos-delay="300">
+                        <span class="tech-icon">✓</span>
+                        <span class="tech-text">Advanced OCR & Computer Vision</span>
+                    </div>
+                    <div class="tech-feature" data-aos="fade-up" data-aos-delay="400">
+                        <span class="tech-icon">✓</span>
+                        <span class="tech-text">GDPR Compliant & Data Protected</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="stat-number" data-target="80">0</div>
+                    <div class="stat-symbol">%</div>
+                    <div class="stat-label">Time Saved</div>
+                </div>
+
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="stat-number" data-target="95">0</div>
+                    <div class="stat-symbol">%</div>
+                    <div class="stat-label">Accuracy Rate</div>
+                </div>
+
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="stat-number" data-target="10">0</div>
+                    <div class="stat-symbol">min</div>
+                    <div class="stat-label">Average Grading</div>
+                </div>
+
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="stat-number" data-target="4">0</div>
+                    <div class="stat-symbol">-10</div>
+                    <div class="stat-label">Grades Supported</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section" id="cta">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2 class="cta-title">Ready to Transform Your Assessment Process?</h2>
+                <p class="cta-subtitle">Join forward-thinking schools using AI to enhance education</p>
+
+                <form class="cta-form" id="demoForm">
+                    <div class="form-row">
+                        <input type="text" placeholder="Your Name" required class="form-input" id="name">
+                        <input type="email" placeholder="Email Address" required class="form-input" id="email">
+                    </div>
+                    <div class="form-row">
+                        <input type="text" placeholder="School Name" required class="form-input" id="school">
+                        <input type="tel" placeholder="Phone Number" class="form-input" id="phone">
+                    </div>
+                    <textarea placeholder="Tell us about your requirements..." class="form-textarea" id="message" rows="4"></textarea>
+                    <button type="submit" class="btn btn-primary btn-large">Request a Demo</button>
+                </form>
+
+                <div class="cta-contact">
+                    <p>Or reach us directly at: <a href="mailto:contact@aigrading.com">contact@aigrading.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo">🎓</span>
+                    <span class="brand-name">AI Grading System</span>
+                    <p class="footer-tagline">Transforming education through intelligent automation</p>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#how-it-works">How It Works</a></li>
+                            <li><a href="#benefits">Benefits</a></li>
+                            <li><a href="#technology">Technology</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#support">Support</a></li>
+                            <li><a href="#documentation">Documentation</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#privacy">Privacy Policy</a></li>
+                            <li><a href="#terms">Terms of Service</a></li>
+                            <li><a href="#security">Security</a></li>
+                            <li><a href="#compliance">Compliance</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 AI Grading System. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
